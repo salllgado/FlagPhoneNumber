@@ -421,7 +421,7 @@ open class FPNTextField: UITextField {
 	}
 
 	private func remove(dialCode: String, in phoneNumber: String) -> String {
-		return phoneNumber.replacingOccurrences(of: "\(dialCode) ", with: "").replacingOccurrences(of: "\(dialCode)", with: "")
+		return phoneNumber.replacingOccurrences(of: "\(dialCode)", with: "").replacingOccurrences(of: "\(dialCode)", with: "")
 	}
 
 	private func getToolBar(with items: [UIBarButtonItem]) -> UIToolbar {
