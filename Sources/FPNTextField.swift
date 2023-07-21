@@ -225,7 +225,7 @@ open class FPNTextField: UITextField {
 
     private func fpnDidSelect(country: FPNCountry) {
         (delegate as? FPNTextFieldDelegate)?.fpnDidSelectCountry(name: country.name, dialCode: country.phoneCode, code: country.code.rawValue)
-//        selectedCountry = country
+        selectedCountry = country
     }
 
     // - Public
