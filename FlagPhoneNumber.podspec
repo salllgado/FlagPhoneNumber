@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 	s.name             = 'FlagPhoneNumber'
-	s.version          = '0.8.0'
+	s.version          = '1.0.0'
 	s.summary          = 'A formatted phone number UITextField with country flag picker.'
 
 	# This description is used to generate tags and improve search results.
